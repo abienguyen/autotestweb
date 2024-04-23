@@ -1,0 +1,11 @@
+<suite name="smoke test">
+    <test name="chrome">
+        <classes>
+            <class name="hooks.TestSuite1">
+                <methods>
+                    <include name="tc01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
